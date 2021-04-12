@@ -1,0 +1,73 @@
+.label {
+    font-weight: bold;
+}
+
+.label code {
+    font-weight: normal;
+    display: inline-block;
+}
+
+pre, code {
+    background: #f6ebcd;
+    border: 1px solid #d2b151;
+    padding: 5px 10px;
+}
+
+pre {
+    text-align: center;
+}
+
+.mdl-card__title {
+    background: #eee;
+}
+
+.resultado > div {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.resultado > div > * {
+    flex: 1;
+}
+
+.resultado pre {
+    margin: initial;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row > div {
+    flex: 1;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form > * {
+    flex: 1;
+    min-width: 100px;
+    align-items: flex-start;
+    margin: 0 10px;
+}
+
+.mdl-card {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    height: auto;
+}
+
+.mdl-card__actions {
+    text-align: right;
+}
